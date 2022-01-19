@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\bin\Debug\IndividualProjectPartB.exe.config
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\bin\Debug\IndividualProjectPartB.exe
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\bin\Debug\IndividualProjectPartB.pdb
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\obj\Debug\PrivateSchool.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\obj\Debug\PrivateSchool.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\obj\Debug\IndividualProjectPartB.exe
+C:\Users\Admin\Desktop\BootcampStuff\Assingments\IndividualProjectPartB\PrivateSchool\PrivateSchool\obj\Debug\IndividualProjectPartB.pdb
