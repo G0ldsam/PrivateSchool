@@ -1,0 +1,46 @@
+1) SELECT * FROM students;
+
+2) SELECT * FROM trainers;
+
+3) SELECT * FROM assignments;
+
+4) SELECT * FROM courses;
+
+5) SELECT students.student_id, students.first_name, students.last_name, courses.course_id, courses.title, courses.stream, courses.type FROM students
+INNER JOIN student_course
+ON students.student_id = student_course.student_id
+INNER JOIN courses
+ON courses.course_id = student_course.course_id
+ORDER BY courses.course_id;
+
+6)SELECT trainers.trainer_id, trainers.first_name, trainers.last_name, courses.course_id, courses.title, courses.stream, courses.type FROM trainers
+INNER JOIN course_trainer
+ON trainers.trainer_id = course_trainer.trainer_id
+INNER JOIN courses
+ON courses.course_id = course_trainer.course_id
+ORDER BY courses.course_id;
+
+7)SELECT assignments.a_id, assignments.title, assignments.description, courses.course_id, courses.title, courses.stream, courses.type FROM assignments
+INNER JOIN course_assignment
+ON assignments.a_id = course_assignment.a_id
+INNER JOIN courses
+ON courses.course_id = course_assignment.course_id
+ORDER BY courses.course_id;
+
+8)SELECT assignments.as_id, assignments.title, courses.course_id, students.student_id, students.first_name, students.last_name FROM assignments
+INNER JOIN course_assignment
+ON assignments.a_id = course_assignment.a_id
+INNER JOIN courses
+ON courses.course_id = course_assignment.course_id
+INNER JOIN student_course
+ON student_course.course_id = courses.course_id
+INNER JOIN students
+ON students.student_id = student_course.student_id
+ORDER BY students.student_id;
+
+SELECT students.student_id, COUNT(student_course.course_id)  FROM students
+INNER JOIN student_course
+ON students.student_id = student_course.student_id
+GROUP BY students.student_id
+HAVING COUNT(student_course.course_id) > 1;
+	
